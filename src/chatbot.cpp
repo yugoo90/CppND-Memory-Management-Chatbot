@@ -44,15 +44,16 @@ ChatBot::~ChatBot()
 
 //// STUDENT CODE
 ////
-ChatBot::ChatBot(const ChatBot &source){ 
-    _image = source._image;
+ChatBot::ChatBot(const ChatBot &source, std::string filename){ 
+    std::cout << "ChatBot copy constructor" << std::endl;
+    _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
+    *_image = *source._image;
     *_currentNode = *source._currentNode;
     *_rootNode = *source._rootNode;
     *_chatLogic = *source._chatLogic;
-    std::cout << "ChatBot copy constructor" << std::endl;
 }
 
-ChatBot::ChatBot &operator=(const ChatBot &source){
+ChatBot& operator=(const ChatBot& source){
     
 }
 
