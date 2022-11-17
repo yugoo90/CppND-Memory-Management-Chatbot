@@ -31,6 +31,8 @@ public:
     ////
     ChatBot(const ChatBot &source, std::string filename); // copy constructor
     ChatBot& operator=(const ChatBot &source); //copy assignment operator
+    ChatBot(ChatBot &&source); //Move constructor
+    ChatBot &operator=(ChatBot &&source); //Move assignment operator
     
 
     ////
