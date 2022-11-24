@@ -49,9 +49,9 @@ ChatBot::ChatBot(const ChatBot &source, std::string filename){
     std::cout << "ChatBot copy constructor" << std::endl;
     _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
     *_image = *source._image;
-    *_currentNode = *source._currentNode;
-    *_rootNode = *source._rootNode;
-    *_chatLogic = *source._chatLogic;
+    _currentNode = source._currentNode;
+    _rootNode = source._rootNode;
+    _chatLogic = source._chatLogic;
 }
 
 ChatBot& ChatBot::operator=(const ChatBot& source){

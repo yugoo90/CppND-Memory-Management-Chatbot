@@ -32,24 +32,6 @@ wx/bitmap.h
 string
 -
 
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/chatgui.cpp
-wx/filename.h
--
-wx/colour.h
--
-wx/image.h
--
-string
--
-chatbot.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/chatbot.h
-chatlogic.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/chatlogic.h
-chatgui.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/chatgui.h
-memory
--
-
 /home/yugoo90/CppND-Memory-Management-Chatbot/src/chatgui.h
 wx/wx.h
 -
