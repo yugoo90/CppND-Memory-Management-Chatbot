@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/chatbot.cpp
-iostream
--
-random
--
-algorithm
--
-ctime
--
-stdlib.h
--
-chatlogic.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/chatlogic.h
-graphnode.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphedge.h
-chatbot.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/chatbot.h
-
 /home/yugoo90/CppND-Memory-Management-Chatbot/src/chatbot.h
 wx/bitmap.h
 -
@@ -72,23 +52,11 @@ string
 chatgui.h
 /home/yugoo90/CppND-Memory-Management-Chatbot/src/chatgui.h
 
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphedge.cpp
-graphnode.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphnode.h
-graphedge.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphedge.h
-
 /home/yugoo90/CppND-Memory-Management-Chatbot/src/graphedge.h
 vector
 -
 string
 -
-
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphnode.cpp
-graphedge.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphedge.h
-graphnode.h
-/home/yugoo90/CppND-Memory-Management-Chatbot/src/graphnode.h
 
 /home/yugoo90/CppND-Memory-Management-Chatbot/src/graphnode.h
 vector

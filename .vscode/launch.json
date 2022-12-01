@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Program",
+            "name": "g++ build and debug active file",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/membot",
@@ -24,7 +24,6 @@
             ],
             "preLaunchTask": "g++ build active file",
             "miDebuggerPath": "/usr/bin/gdb",
-
         }
     ]
 }
