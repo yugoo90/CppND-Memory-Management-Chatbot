@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}/build/membot",
             "args": [],
             "stopAtEntry": true,
-            "cwd": "${workspacefolder}",
+            "cwd": "${workspaceFolder}/build",
             "environment":[],
             "externalConsole": false,
             "MIMode": "gdb",
